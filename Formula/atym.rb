@@ -7,10 +7,10 @@ class Atym < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://darwinpackagerepo.blob.core.windows.net/packages/atym/1.0.1/atym_darwin_arm64.tar.gz"
-      sha256 "a7c2b21a777b68926b8679e098427314e6015a553366030457c9302ef0b41553"
+      sha256 "f744f9f68b7175a9296cc4de825823c4dd6034385cd8ca9ae7c043dc544af4fd"
     else
       url "https://darwinpackagerepo.blob.core.windows.net/packages/atym/1.0.1/atym_darwin_amd64.tar.gz"
-      sha256 "732327858bdf4b53b74348f7244a5e53da06bf3bb3d8e03f66c8ebafcc6ab357"
+      sha256 "75841fa94f49401c6d5bed1384029140150d2d77719de3c2399e3d82aad6480d"
     end
   end
 
