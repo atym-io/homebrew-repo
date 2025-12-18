@@ -1,16 +1,16 @@
-class Atym-rc < Formula
-  desc "Atym (RC) CLI - WebAssembly container runtime"
+class AtymRc < Formula
+  desc "Atym CLI - WebAssembly container runtime"
   homepage "https://atym.io/"
-  version "1.0.4-rc1"
-  license "MIT"  # Adjust to your license
+  version "1.0.6-rc1"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://darwinpackagerepo.blob.core.windows.net/packages/atym-rc/1.0.4-rc1/atym_darwin_arm64.tar.gz"
-      sha256 "5ccfa439834b69a9cdc0527e6ca1a50b0721e28f38f3ff84272043a6e5b9dfb8"
+      url "https://darwinpackagerepo.blob.core.windows.net/packages/atym-rc/1.0.6-rc1/atym_darwin_arm64.tar.gz"
+      sha256 "f710be8e23473255231e4bf69a82482b8e75857f9d5f29268e6bf31c75734bc1"
     else
-      url "https://darwinpackagerepo.blob.core.windows.net/packages/atym-rc/1.0.4-rc1/atym_darwin_amd64.tar.gz"
-      sha256 "2e4ef0eb56348a0369687b8eaf9b0a7d756d0be40595dcc47b15c2a92413b18f"
+      url "https://darwinpackagerepo.blob.core.windows.net/packages/atym-rc/1.0.6-rc1/atym_darwin_amd64.tar.gz"
+      sha256 "42e9028e11071bdfd089c62380ec282f5e85c78a4ace6deb1c273028cf039d07"
     end
   end
 
