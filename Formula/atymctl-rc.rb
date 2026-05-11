@@ -1,16 +1,16 @@
 class AtymctlRc < Formula
   homepage "https://atym.io/"
   desc "AtymCtl"
-  version "1.0.5-rc7"
+  version "1.0.5-rc8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://darwinpackagerepo.blob.core.windows.net/packages/atymctl-rc/1.0.5-rc7/atymctl_darwin_arm64.tar.gz"
-      sha256 "138933612984392247901ed0d32ef361828a1f736d73ba84fa29aae98496a18a"
+      url "https://darwinpackagerepo.blob.core.windows.net/packages/atymctl-rc/1.0.5-rc8/atymctl_darwin_arm64.tar.gz"
+      sha256 "4ec8733c69da3d72d41ff7734d331de9a6c4eb25dbf6812d758f6a713a69f30c"
     else
-      url "https://darwinpackagerepo.blob.core.windows.net/packages/atymctl-rc/1.0.5-rc7/atymctl_darwin_amd64.tar.gz"
-      sha256 "6f2b0766265ac0cfcc9705f085a9e1ade47830d7389ff4faf3b53c3b5fe44e84"
+      url "https://darwinpackagerepo.blob.core.windows.net/packages/atymctl-rc/1.0.5-rc8/atymctl_darwin_amd64.tar.gz"
+      sha256 "9ffc315def5e79bbab5d2cd0c10f7a3c7a09e16febb3162b502e4ecebb1a2f0f"
     end
   end
 
